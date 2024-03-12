@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8ea87f810c26419c9e23aca4d49ed5cb" Name="Diagram1">
+        <EntityTypeShape EntityType="EquipModel.DataLogin" Width="1.5" PointX="5.75" PointY="0.75" />
+        <EntityTypeShape EntityType="EquipModel.Equipment" Width="1.5" PointX="0.75" PointY="5" />
+        <EntityTypeShape EntityType="EquipModel.EquipmentStatus" Width="1.5" PointX="3" PointY="5.125" />
+        <EntityTypeShape EntityType="EquipModel.Role" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="EquipModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="3.75" />
+        <EntityTypeShape EntityType="EquipModel.Users" Width="1.5" PointX="3" PointY="1" />
+        <AssociationConnector Association="EquipModel.FK_EquipmentStatus_Equipment1" />
+        <AssociationConnector Association="EquipModel.FK_Users_Role1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
